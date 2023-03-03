@@ -6,7 +6,7 @@ function Navbar() {
     //updates the state
 const [click, setClick] = useState(false);
     return (
-    <>
+    <> 
         <nav className='navbar'>
             <div className='navbar-container'>
                <Link to='/' className='navbar-logo'>
