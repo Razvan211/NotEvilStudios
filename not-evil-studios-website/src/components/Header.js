@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Navbar, Nav } from 'react-bootstrap';
 import logo from '../images/logo.png';
-import { text } from '@fortawesome/fontawesome-svg-core';
+
 
 
 export default function Header() {

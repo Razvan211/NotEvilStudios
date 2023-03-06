@@ -7,17 +7,20 @@ import AboutUs from './components/AboutUs';
 import Projects from './components/Projects'
 
 
+
+
 function App() {
   return (
-    <>
+    <div className='body'>
     <Header/>
       <Routes>
         <Route exact path='/' element={<LandingPage />}/>
         <Route path='/projects' element={<Projects />} />
         <Route path='/about-us' element={<AboutUs/>} />
       </Routes>
+  
     <Footer/>
-    </>
+    </div>
   );
 }
 
