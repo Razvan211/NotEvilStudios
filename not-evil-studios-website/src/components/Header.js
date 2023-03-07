@@ -10,8 +10,7 @@ export default function Header() {
       
         <Navbar
         style={{
-            backgroundColor: "grey"
-            
+            backgroundColor: "grey",
         }}>
             <Navbar.Brand as={Link} to="/">
                 <img
@@ -23,8 +22,8 @@ export default function Header() {
                 />
             </Navbar.Brand>
             
-            <Nav className='text-white'>
-                <Nav.Item>
+            <Nav >
+                <Nav.Item >
                 <Nav.Link as={Link} to="/">Home</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>

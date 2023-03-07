@@ -6,10 +6,11 @@ function Footer() {
     <Container
       fluid
       style={{
-        position: 'absolute',
-        bottom: 0,
-        paddingBottom: '20px',
-        backgroundColor: 'gray'
+        marginTop:'auto',
+        bottom:0,
+        paddingBottom: '60px',
+        backgroundColor: 'grey',
+       
       }}>
         <Row>
           <Col xl={6} xs={6} style={{textAlign:"center"}}>
