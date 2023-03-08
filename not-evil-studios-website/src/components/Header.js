@@ -11,6 +11,10 @@ export default function Header() {
         <Navbar
         style={{
             backgroundColor: "grey",
+            width: '100%',
+            display: 'flex',
+            justifyContent: 'space-between'
+            
         }}>
             <Navbar.Brand as={Link} to="/">
                 <img
@@ -22,7 +26,7 @@ export default function Header() {
                 />
             </Navbar.Brand>
             
-            <Nav style={{alignContent:"end"}}>
+            <Nav>
                 <Nav.Item >
                 <Nav.Link as={Link} to="/">Home</Nav.Link>
                 </Nav.Item>
