@@ -22,7 +22,7 @@ export default function Header() {
                 />
             </Navbar.Brand>
             
-            <Nav >
+            <Nav style={{alignContent:"end"}}>
                 <Nav.Item >
                 <Nav.Link as={Link} to="/">Home</Nav.Link>
                 </Nav.Item>

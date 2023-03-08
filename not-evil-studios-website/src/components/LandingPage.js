@@ -1,4 +1,5 @@
 import React from 'react'
+import KittyCard from './KittyCard'
 
 
 
@@ -50,10 +51,26 @@ export default function LandingPage() {
                dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
               non proident, sunt in culpa qui officia deserunt mollit anim id 
                est laborum."</p>
-
-            
-                              
-               
+           <div className="rounded" style={{backgroundColor: 'lightgray', width:"100%"}}>
+                <div className="row"  style={{
+                   alignContent:'center',
+                    marginLeft:'auto',
+                    marginRight: 'auto',
+                    padding: '30px',
+                    width:'95%'
+                    }}>
+                   <div className="col"  >
+                      <KittyCard />
+                   </div>
+                   <div className="col">
+                      <KittyCard />
+                   </div>
+                   <div className="col">
+                      <KittyCard />
+                   </div>
+                   
+                </div>
+          </div>   
          </div>
         </div>   
         
