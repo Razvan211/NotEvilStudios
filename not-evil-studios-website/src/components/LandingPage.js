@@ -43,7 +43,11 @@ export default function LandingPage() {
          }}>
           <h2>Projects</h2>
 
-          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          <p style={{
+            fontSize:"20px",
+            textAlign:"center"
+            
+          }}>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
               sed do eiusmod tempor incididunt ut labore et dolore magna 
               aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
               ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis 
@@ -53,19 +57,20 @@ export default function LandingPage() {
                est laborum."</p>
            <div className="rounded" style={{backgroundColor: 'lightgray', width:"100%"}}>
                 <div className="row"  style={{
+                  display:"flex",
+                  justifyContent:"stretch",
+                  marginLeft:'auto',
+                  marginRight: 'auto',
+                  padding: '50px',
                   
-                    marginLeft:'auto',
-                    marginRight: 'auto',
-                    padding: '30px',
-                    width:'95%'
                     }}>
-                   <div className="col" style={{display:'flex', justifyContent:'center'}} >
+                   <div className="col" style={{display:'flex', justifyContent:'center', paddingBottom:"20px"}} >
                       <KittyCard />
                    </div>
-                   <div className="col" style={{display:"flex", justifyContent:'center'}}>
+                   <div className="col" style={{display:"flex", justifyContent:'center',paddingBottom:"20px"}}>
                       <KittyCard />
                    </div>
-                   <div className="col" style={{display:'flex', justifyContent:'center'}}>
+                   <div className="col" style={{display:'flex', justifyContent:'center', paddingBottom:"20px"}}>
                       <KittyCard />
                    </div>
                    
