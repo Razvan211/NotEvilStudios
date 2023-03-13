@@ -38,24 +38,43 @@ function AboutUs() {
           <h2>Team</h2>
 
         
-           <div className="rounded" style={{backgroundColor: 'lightgray', width:"100%", alignContent:'center', marginLeft:'auto',
-                    marginRight: 'auto',}}>
+           <div className="rounded" 
+           style={{backgroundColor: 'lightgray', 
+                   width:"100%", 
+                   }}>
+               
                 <div className="row"  style={{
-                   alignContent:'center',
+                    display:"flex",
+                    justifyContent:"stretch",
                     marginLeft:'auto',
                     marginRight: 'auto',
-                    padding: '30px',
-                    width:'100%'
+                    padding: '50px'
+                   
                     }}>
-                   <div className="col"  >
-                      <MemberCard/>
+                   <div className="col" style={{display:'flex', justifyContent:'center', padding:"20px"}}>
+                     <MemberCard/>
                    </div>
-                   <div className="col">
-                   <MemberCard/>
+                   <div className="col" style={{display:'flex', justifyContent:'center', padding:"20px"}}>
+                     <MemberCard/>
                    </div>
-                   <div className="col">
-                   <MemberCard/>
+                   <div className="col" style={{display:'flex', justifyContent:'center', padding:"20px"}}>
+                     <MemberCard/>
                    </div>
+                   <div className="col" style={{display:'flex', justifyContent:'center', padding:"20px"}}>
+                     <MemberCard/>
+                   </div>
+                   <div className="col" style={{display:'flex', justifyContent:'center', padding:"20px"}}>
+                     <MemberCard/>
+                   </div>
+                   <div className="col" style={{display:'flex', justifyContent:'center', padding:"20px"}}>
+                     <MemberCard/>
+                   </div>
+                   <div className="col" style={{display:'flex', justifyContent:'center', padding:"20px"}}>
+                     <MemberCard/>
+                   </div>
+                
+                  
+              
                    
                 </div>
           </div>

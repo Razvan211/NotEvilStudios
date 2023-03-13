@@ -53,19 +53,19 @@ export default function LandingPage() {
                est laborum."</p>
            <div className="rounded" style={{backgroundColor: 'lightgray', width:"100%"}}>
                 <div className="row"  style={{
-                   alignContent:'center',
+                  
                     marginLeft:'auto',
                     marginRight: 'auto',
                     padding: '30px',
                     width:'95%'
                     }}>
-                   <div className="col"  >
+                   <div className="col" style={{display:'flex', justifyContent:'center'}} >
                       <KittyCard />
                    </div>
-                   <div className="col">
+                   <div className="col" style={{display:"flex", justifyContent:'center'}}>
                       <KittyCard />
                    </div>
-                   <div className="col">
+                   <div className="col" style={{display:'flex', justifyContent:'center'}}>
                       <KittyCard />
                    </div>
                    
