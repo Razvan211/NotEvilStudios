@@ -8,7 +8,8 @@ export default function LandingPage() {
   
   return (
       <div style={{
-        textAlign:'center'
+        textAlign:'center',
+        backgroundColor: 'white'
       }}>
          <div className='rounded'
           style={{
@@ -58,6 +59,7 @@ export default function LandingPage() {
            <div className="rounded" style={{backgroundColor: 'lightgray', width:"100%"}}>
                 <div className="row"  style={{
                   display:"flex",
+                  
                   justifyContent:"stretch",
                   marginLeft:'auto',
                   marginRight: 'auto',

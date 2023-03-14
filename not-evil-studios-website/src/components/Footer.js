@@ -8,7 +8,7 @@ function Footer() {
       style={{
         marginTop:'auto',
         bottom:0,
-        paddingBottom: '60px',
+        paddingBottom: '70px',
         backgroundColor: 'rgba(180, 0, 0, 0.8)',
        
       }}>
