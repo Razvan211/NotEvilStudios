@@ -1,0 +1,16 @@
+.navbar{
+    background-color:rgba(167, 0, 0, 1);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 2px 20px gray;
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+}
+
+.image-navbar{
+    border-radius: 50%;
+  
+    max-width: 150px;
+    max-height: 150px;
+}

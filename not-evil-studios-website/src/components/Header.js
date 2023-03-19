@@ -2,27 +2,17 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Navbar, Nav } from 'react-bootstrap';
 import logo from '../images/logo.png';
-
+import './Header.css'
 
 
 export default function Header() {
     return (
       
-        <Navbar
-        style={{
-            backgroundColor:'rgba(180, 0, 0, 0.8)',
-            width: '100%',
-            display: 'flex',
-            justifyContent: 'space-between'
-            
-        }}>
+        <Navbar className='navbar'>
             <Navbar.Brand as={Link} to="/">
-                <img
+                <img className="image-navbar"
                   src={logo}
-                  width="150"
-                  height="150"
-                  className="d-inline-block align-top"
-                  alt="React Bootstrap logo"
+                  alt = "Not evil studios logo"
                 />
             </Navbar.Brand>
             

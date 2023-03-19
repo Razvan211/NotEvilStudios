@@ -1,15 +1,15 @@
 import React from 'react'
-import logo from '../images/logo.png'
 
 
-function MemberCard() {
+
+function MemberCard(props) {
   return (
     <div className="card" style={{width: '30rem', backgroundColor:'gray', borderColor:'gray'}}>
-    <img src={logo} className="rounded-circle" alt="logo" style={{padding:'10px', backgroundColor:"white"}}/>
+    <img src={props.img} className="rounded-circle" alt={props.alt} style={{padding:'10px', backgroundColor:"white"}}/>
     <div className="card-body">
-      <h3 className="card-title">Team Member</h3>
-      <p className="card-text" style={{fontSize:"25px"}}>About the Team Member</p>
-      <p className="card-text" style={{fontSize:"20px"}}>Social Media:</p>
+      <h3 className="card-title">{props.name}</h3>
+      <p className="card-text" style={{fontSize:"25px"}}>{props.info}</p>
+      <p className="card-text" style={{fontSize:"20px"}}>{props.socials}</p>
      
     </div>
   </div>

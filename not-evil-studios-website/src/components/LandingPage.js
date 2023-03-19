@@ -11,23 +11,10 @@ export default function LandingPage() {
  
   
   return (
-      <div style={{
-        textAlign:'center',
-        backgroundColor: 'white'
-      }}>
-         <div className='rounded'
-          style={{
-          backgroundColor: "gray",
-          marginLeft: 'auto',
-          marginRight: 'auto',
-          padding: "20px",
-          marginTop: 20,
-          width: '90%',
-
-          
-        }}>
-           <h1>Not Evil Studios</h1>
-           <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+      <div className='body'>
+         <div className='mission-container'>
+           <h1 className='mission-title'>Not Evil Studios</h1>
+           <p className='mission-text'>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
               sed do eiusmod tempor incididunt ut labore et dolore magna 
               aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
               ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis 
@@ -37,22 +24,12 @@ export default function LandingPage() {
                est laborum."</p>
                
           </div>
-         <div className='rounded'
-         style={{
-          marginTop: 20,
-          backgroundColor:"gray",
-          marginLeft:'auto',
-          marginRight: 'auto',
-          padding: '20px',
-          width:'90%'
-         }}>
-          <h2>Projects</h2>
+         <div className='projects'>
 
-          <p style={{
-            fontSize:"20px",
-            textAlign:"center"
-            
-          }}>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          <h2 className='projects-title'>Projects</h2>
+
+         <p className='projects-text'  >
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
               sed do eiusmod tempor incididunt ut labore et dolore magna 
               aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
               ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis 
@@ -60,7 +37,8 @@ export default function LandingPage() {
                dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
               non proident, sunt in culpa qui officia deserunt mollit anim id 
                est laborum."</p>
-           <div className="rounded" style={{backgroundColor: 'lightgray', width:"100%"}}>
+               
+           <div className="projects-container" >
                 <div className="container" >
                       <ProjectCards  img={kittyImage} 
                       title = "Kitty Fighting Club" 
