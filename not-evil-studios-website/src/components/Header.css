@@ -1,6 +1,8 @@
 .navbar{
     background-color:rgba(167, 0, 0, 1);
     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     justify-content: space-between;
     box-shadow: 0 2px 20px gray;
