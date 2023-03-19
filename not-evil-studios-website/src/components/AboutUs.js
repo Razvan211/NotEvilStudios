@@ -39,8 +39,8 @@ function AboutUs() {
                      info=" Lover of games, and a fan of quirky mechanics
                      Co-Founder, Technical lead, Lead Prrogrammer"
                      socials="Github"/>
-                     <MemberCard img={cb} alt="photo with Chloe Burgess"
-                     name="Chloe Burgess"
+                     <MemberCard img={cb} alt="photo with Kuramura"
+                     name="Kuramura"
                      info="Tech Lead,  I love games with immersive stories and interesting gameplay mechanics
                      , I enjoy programming and problem solving"/>
                      <MemberCard img={rn} alt="photo with Razvan Nica"
