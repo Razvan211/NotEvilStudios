@@ -58,6 +58,21 @@ export default function LandingPage() {
                       description = "A game about Bees"
                       link = "https://team-valstik.itch.io/kitty-fighting-club"
                       />
+                          <ProjectCards  img={logoBG} 
+                      title = "BeeSieged" 
+                      description = "A game about Bees"
+                      link = "https://team-valstik.itch.io/kitty-fighting-club"
+                      />
+                          <ProjectCards  img={logoBG} 
+                      title = "BeeSieged" 
+                      description = "A game about Bees"
+                      link = "https://team-valstik.itch.io/kitty-fighting-club"
+                      />
+                          <ProjectCards  img={logoBG} 
+                      title = "BeeSieged" 
+                      description = "A game about Bees"
+                      link = "https://team-valstik.itch.io/kitty-fighting-club"
+                      />
                     
                 </div>
           </div>   

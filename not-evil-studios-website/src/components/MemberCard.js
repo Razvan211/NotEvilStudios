@@ -1,15 +1,16 @@
 import React from 'react'
+import './MemberCard.css'
 
 
 
 function MemberCard(props) {
   return (
-    <div className="card" style={{width: '30rem', backgroundColor:'gray', borderColor:'gray'}}>
-    <img src={props.img} className="rounded-circle" alt={props.alt} style={{padding:'10px', backgroundColor:"white"}}/>
-    <div className="card-body">
-      <h3 className="card-title">{props.name}</h3>
-      <p className="card-text" style={{fontSize:"25px"}}>{props.info}</p>
-      <p className="card-text" style={{fontSize:"20px"}}>{props.socials}</p>
+    <div className="team-card" >
+    <img src={props.img} className="team-card-image" alt={props.alt}/>
+    <div className="team-card-body">
+      <h3 className="team-card-title">{props.name}</h3>
+      <p className="team-card-text" >{props.info}</p>
+      <p className="team-card-socials" >{props.socials}</p>
      
     </div>
   </div>

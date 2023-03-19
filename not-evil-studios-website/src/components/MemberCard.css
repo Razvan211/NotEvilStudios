@@ -1,18 +1,27 @@
-.card{
+.team-card{
     overflow: hidden;
+    margin: 5%;
+    background-color: black;
     box-shadow: 0 2px 20px gray;
     border-radius:20%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.card-image{
-height: 12rem;
-width: 100%;
-object-fit: cover;
+.team-card-image{
+    height: 12rem;
+    width: 100%;
+    border-radius: 50%;
+    border-color: black;
+    object-fit:cover;
 }
 
-.card-body{
+
+.team-card-body{
     align-items: center;
-    
+    color: white;
+    height: 50%;
+    background-color: rgb(170,0,0,1);
 }
+
+
