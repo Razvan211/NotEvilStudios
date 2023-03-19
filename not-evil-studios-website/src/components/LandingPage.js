@@ -1,5 +1,9 @@
 import React from 'react'
-import KittyCard from './KittyCard'
+import './LandingPage.css'
+import logoBG from '../images/logoBG.png'
+import kittyImage from '../images/KittyFC.png'
+import ProjectCards from './ProjectCards'
+import logo from '../images/logo.png'
 
 
 
@@ -57,25 +61,26 @@ export default function LandingPage() {
               non proident, sunt in culpa qui officia deserunt mollit anim id 
                est laborum."</p>
            <div className="rounded" style={{backgroundColor: 'lightgray', width:"100%"}}>
-                <div className="row"  style={{
-                  display:"flex",
-                  
-                  justifyContent:"stretch",
-                  marginLeft:'auto',
-                  marginRight: 'auto',
-                  padding: '50px',
-                  
-                    }}>
-                   <div className="col" style={{display:'flex', justifyContent:'center', paddingBottom:"20px"}} >
-                      <KittyCard />
-                   </div>
-                   <div className="col" style={{display:"flex", justifyContent:'center',paddingBottom:"20px"}}>
-                      <KittyCard />
-                   </div>
-                   <div className="col" style={{display:'flex', justifyContent:'center', paddingBottom:"20px"}}>
-                      <KittyCard />
-                   </div>
+                <div className="container" >
+                      <ProjectCards  img={kittyImage} 
+                      title = "Kitty Fighting Club" 
+                      description = "In a world where cats stay on two legs and fight with fish as weapons."
+                      link = "https://team-valstik.itch.io/kitty-fighting-club"
+                      />
                    
+                   <ProjectCards  img={logo} 
+                      title = "Fling" 
+                      description = "A game about a fling :))"
+                      link = "https://team-valstik.itch.io/kitty-fighting-club"
+                      />
+                      
+                 
+                      <ProjectCards  img={logoBG} 
+                      title = "BeeSieged" 
+                      description = "A game about Bees"
+                      link = "https://team-valstik.itch.io/kitty-fighting-club"
+                      />
+                    
                 </div>
           </div>   
          </div>
