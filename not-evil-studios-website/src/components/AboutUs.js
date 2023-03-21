@@ -5,6 +5,7 @@ import co from '../images/ChrisO.png'
 import ch from '../images/ChrisH.png'
 import cb from '../images/KuramuraLogo.png'
 import rn from '../images/RazvanN.png'
+import kj from '../images/Kjie.png'
 
 function AboutUs() {
   return (
@@ -48,7 +49,10 @@ function AboutUs() {
                      info="Web Developer, 3D Lead Artist, I love multiplayer games, I enjoy travelling"
                      socials="Facebook"
                      />
-                     <MemberCard/>
+                     <MemberCard img={kj} alt="photo with Kjellon Morris"
+                     name="Kjellon"
+                     info="Co-Founder, Head of 2D Art
+                     Full time creative and mocha enthusiast."/>
                      <MemberCard/>
                      <MemberCard/>
                  </div>
