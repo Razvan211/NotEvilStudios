@@ -18,17 +18,20 @@
 }
 
 .team-card-body{
+    flex: 1;
     align-items: center;
     color: black;
     height: 50%;
     background-color: white;
 }
 .team-card-about{
-    margin-top: 10%;
+    margin-bottom: auto;
+    height: 90%;
     border: 1px;
     border-width: 1px;
     border-color: black;
 }
+
 .team-card-roles{
     
     height: 10%;
@@ -42,11 +45,20 @@
     margin-left: 1rem;
     margin-right: 1rem;
 }
-
+.team-card-media{
+    display: flex;
+    justify-content:center;
+    gap: 2%;
+    align-items: center;
+    background-color: rgba(167, 0, 0, 0.2);
+}
 .team-card-socials{
-    
-    
-   
-}   
+    margin-bottom: 0px;
+    height: 10%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
 
 

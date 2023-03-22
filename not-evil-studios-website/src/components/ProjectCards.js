@@ -9,7 +9,7 @@ export default function ProjectCards(props) {
   <div className="project-card-body">
     <h5 className="project-card-title">{props.title}</h5>
     <p className="project-card-text">{props.description}</p>
-    <a href={props.link} rel='noreferrer' target={'_blank'} className="btn btn-dark">Download</a>
+    <a  href={props.link} rel='noreferrer' target={'_blank'} className="btn btn-dark">Download</a>
   </div>
 </div>
   )

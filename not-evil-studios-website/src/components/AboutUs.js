@@ -34,34 +34,81 @@ function AboutUs() {
              
                      <MemberCard img={co} alt="photo with Chris Oliver" 
                      name="Christopher Oliver"
-                     roles = "Co-Founder, CFO, Lead Sound Designer Gamer"
-                     info="Musician and Dad"
-                     socials ="Facebook:" />
+                     roles = "CFO, Lead Sound Designer,Co-Founder"
+                     info="Gamer, Musician and Dad"
+                     showTwitter="true"
+                     twitter="https://twitter.com/EskimoShadow"
+                     showLinkedIn="true"
+                     linkedin="https://www.linkedin.com/in/christopher-oliver-a19798233/" 
+                     />
+
                      <MemberCard img={ch} alt="photo with Chris Hughes"
                      name="Chris Hughes"
-                     roles =" Co-Founder, Technical lead, Lead Programmer"
+                     roles ="Technical lead, Lead Programmer, Co-Founder"
                      info="Lover of games, and a fan of quirky mechanics"
-                     socials="Github"/>
+                     twitter="https://twitter.com/NotEvilChris993"
+                     showTwitter="true"
+                     wix="https://chrishughes1993.wixsite.com/chrishughes "
+                     showWix="true"
+                     showGitHub="true"
+                     github="https://github.com/ChrisSHughes "
+                     />
+
                      <MemberCard img={cb} alt="photo with Kuramura"
                      name="Kuramura"
                      roles = "Tech Lead, Co-Founder"
                      info="I love games with immersive stories and interesting gameplay mechanics
-                     , I enjoy programming and problem solving"/>
+                     , I enjoy programming and problem solving"
+                     showYoutube="true"
+                     youtube="https://www.youtube.com/channel/UChxe-VXG_Yzgkj6X6whsLxg"
+                     showGitHub="true"
+                     github="https://github.com/Kuramura300"
+                     showWebsite="true"
+                     website="https://kuramura.akemi.ai/"
+                     showTwitter="true"
+                     twitter="https://twitter.com/Kuramura300"
+                     />
+
                      <MemberCard img={rn} alt="photo with Razvan Nica"
                      name="Razvan Nica"
                      roles ="Web Developer, 3D Lead Artist, Co-Founder"
                      info="I love multiplayer games, I enjoy travelling"
-                     socials="Facebook"
+                     twitter="https://twitter.com/razvan58686269"
+                     showTwitter="true"
+                     linkedin="https://www.linkedin.com/in/razvan-nica-b429101b8/"
+                     showLinkedIn="true"
+                     instagram="https://www.instagram.com/razvannica/"
+                     showInstagram="true"
+                     facebook="https://www.facebook.com/nica.razvan.12"
+                     showFacebook="true"
                      />
+
                      <MemberCard img={kj} alt="photo with Kjellon Morris"
                      name="Kjellon Morris"
-                     roles="Co-Founder, Head of 2D Art"
-                     info="Full time creative and mocha enthusiast."/>
+                     roles="Head of 2D Art, Co-Founder"
+                     info="Full time creative and mocha enthusiast."
+                     showInstagram="true"
+                     instagram="https://www.instagram.com/kjekje42/"
+                     showLinkedIn="true"
+                     linkedin="https://www.linkedin.com/in/kjellon-morris-10a55816b/"
+                     showTwitter = "true"
+                     twitter="https://twitter.com/kjekje42"
+                     />
+
                      <MemberCard img={jh} alt="photo with Josh Kinver"
                      name="Josh Kinver"
-                     roles ="Co-Founder, Head of PR, Head of HR"
+                     roles ="Head of PR, Head of HR, Co-Founder"
                      info="Emotional support dandelion, slight drama queen, lover of playing games, writing stories, and listening to music."
-                     socials=""/>
+                     github="https://github.com/jkinver"
+                     showGitHub="true"
+                     facebook="https://www.facebook.com/profile.php?id=100090679399523"
+                     showFacebook="true"
+                     linkedin="https://www.linkedin.com/in/joshua-kinver-a24a0a255/"
+                     showLinkedIn="true"
+                     twitter="https://twitter.com/joshua_kinver"
+                     showTwitter="true"
+                     />
+
                      <MemberCard img={logo} alt="photo with Phill"
                      />
                  </div>
