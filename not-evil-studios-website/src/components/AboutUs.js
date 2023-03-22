@@ -34,30 +34,33 @@ function AboutUs() {
              
                      <MemberCard img={co} alt="photo with Chris Oliver" 
                      name="Christopher Oliver"
-                     info="Co-Founder, CFO, Lead Sound Designer 
-                     Gamer, Musician and Dad"
+                     roles = "Co-Founder, CFO, Lead Sound Designer Gamer"
+                     info="Musician and Dad"
                      socials ="Facebook:" />
                      <MemberCard img={ch} alt="photo with Chris Hughes"
                      name="Chris Hughes"
-                     info=" Lover of games, and a fan of quirky mechanics
-                     Co-Founder, Technical lead, Lead Prrogrammer"
+                     roles =" Co-Founder, Technical lead, Lead Programmer"
+                     info="Lover of games, and a fan of quirky mechanics"
                      socials="Github"/>
                      <MemberCard img={cb} alt="photo with Kuramura"
                      name="Kuramura"
-                     info="Tech Lead,  I love games with immersive stories and interesting gameplay mechanics
+                     roles = "Tech Lead, Co-Founder"
+                     info="I love games with immersive stories and interesting gameplay mechanics
                      , I enjoy programming and problem solving"/>
                      <MemberCard img={rn} alt="photo with Razvan Nica"
                      name="Razvan Nica"
-                     info="Web Developer, 3D Lead Artist, I love multiplayer games, I enjoy travelling"
+                     roles ="Web Developer, 3D Lead Artist, Co-Founder"
+                     info="I love multiplayer games, I enjoy travelling"
                      socials="Facebook"
                      />
                      <MemberCard img={kj} alt="photo with Kjellon Morris"
                      name="Kjellon Morris"
-                     info="Co-Founder, Head of 2D Art
-                     Full time creative and mocha enthusiast."/>
+                     roles="Co-Founder, Head of 2D Art"
+                     info="Full time creative and mocha enthusiast."/>
                      <MemberCard img={jh} alt="photo with Josh Kinver"
                      name="Josh Kinver"
-                     info="Co-Founder, Head of PR, Head of HR, Emotional support dandelion, slight drama queen, lover of playing games, writing stories, and listening to music."
+                     roles ="Co-Founder, Head of PR, Head of HR"
+                     info="Emotional support dandelion, slight drama queen, lover of playing games, writing stories, and listening to music."
                      socials=""/>
                      <MemberCard img={logo} alt="photo with Phill"
                      />
