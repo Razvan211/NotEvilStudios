@@ -39,7 +39,7 @@ export default function LandingPage() {
                est laborum."</p>
                
            <div className="projects-container" >
-                <div className="container" >
+                
                       <ProjectCards  img={kittyImage} 
                       title = "Kitty Fighting Club" 
                       description = "In a world where cats stay on two legs and fight with fish as weapons."
@@ -74,7 +74,7 @@ export default function LandingPage() {
                       link = "https://team-valstik.itch.io/kitty-fighting-club"
                       />
                     
-                </div>
+                
           </div>   
          </div>
         </div>   

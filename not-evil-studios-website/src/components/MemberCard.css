@@ -1,6 +1,7 @@
 .team-card{
     overflow: hidden;
     margin: 5%;
+    min-height:20rem;
     background-color: black;
     box-shadow: 0 2px 20px gray;
     border-radius:20%;

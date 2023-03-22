@@ -6,6 +6,8 @@ import ch from '../images/ChrisH.png'
 import cb from '../images/KuramuraLogo.png'
 import rn from '../images/RazvanN.png'
 import kj from '../images/Kjie.png'
+import jh from '../images/Josh.png'
+import logo from '../images/logo.png'
 
 function AboutUs() {
   return (
@@ -29,7 +31,7 @@ function AboutUs() {
         
              <div className="team-container">
                
-                <div className="container" >
+             
                      <MemberCard img={co} alt="photo with Chris Oliver" 
                      name="Christopher Oliver"
                      info="Co-Founder, CFO, Lead Sound Designer 
@@ -50,14 +52,18 @@ function AboutUs() {
                      socials="Facebook"
                      />
                      <MemberCard img={kj} alt="photo with Kjellon Morris"
-                     name="Kjellon"
+                     name="Kjellon Morris"
                      info="Co-Founder, Head of 2D Art
                      Full time creative and mocha enthusiast."/>
-                     <MemberCard/>
-                     <MemberCard/>
+                     <MemberCard img={jh} alt="photo with Josh Kinver"
+                     name="Josh Kinver"
+                     info="Co-Founder, Head of PR, Head of HR, Emotional support dandelion, slight drama queen, lover of playing games, writing stories, and listening to music."
+                     socials=""/>
+                     <MemberCard img={logo} alt="photo with Phill"
+                     />
                  </div>
               </div>
-          </div>  
+           
      </div>
   )
 }
