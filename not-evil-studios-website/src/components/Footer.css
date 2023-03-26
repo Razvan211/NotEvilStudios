@@ -3,6 +3,7 @@
     background-color:rgba(167, 0, 0, 1);
     width: 100%;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     box-shadow: 0 2px 20px gray;
     border-top-right-radius: 5%;
@@ -11,5 +12,15 @@
     margin-left: auto;
     margin-right: auto;
     bottom: 0;
-    padding-bottom: 70px ;
+
+    padding-bottom: auto ;
+}
+
+.row-1{
+    align-self: center;
+    padding: 1%;
+}
+.row-2{
+    align-self: center;
+    padding: 1%;
 }
