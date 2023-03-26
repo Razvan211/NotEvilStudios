@@ -11,14 +11,16 @@ function MemberCard(props) {
     <div className="team-card" >
     <img src={props.img} className="team-card-image" alt={props.alt}/>
     <div className="team-card-body">
+    <div className='team-info'>
       <h4 className="team-card-title">{props.name}</h4>
       <h5 className='team-card-roles'>{props.roles}</h5>
-      <div className='team-info'>
+      
       <div className='team-card-about'>
       <p className="team-card-text">{props.info}</p>
       </div>
-      <div className='team-card-socials'>
-      <p className="team-card-media">
+      </div>
+      <div fluid className='team-card-socials'>
+      <p className="team-card-media ">
         
         {props.showTwitter &&( <a href={props.twitter} rel='noreferrer' target="_blank" >
         <FontAwesomeIcon icon={faTwitter} />
@@ -54,7 +56,7 @@ function MemberCard(props) {
        
       </p>
       </div>
-      </div>
+     
     </div>
   </div>
   )
