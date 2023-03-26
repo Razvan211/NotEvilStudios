@@ -109,7 +109,12 @@ function AboutUs() {
                      showTwitter="true"
                      />
 
-                     <MemberCard img={logo} alt="photo with Phill"
+                     <MemberCard img={logo} alt="photo with PSC"
+                     name = "PSC"
+                     roles = "CEO, Co-Founder"
+                     info = "Gamer, Book Enjoyer, Spreadsheet Maniac"
+                     showFacebook = "true"
+                     facebook="https://www.facebook.com/PhilSC95"
                      />
                  </div>
               </div>
