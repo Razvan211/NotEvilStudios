@@ -1,6 +1,6 @@
 .project-card{
     overflow: hidden;
-
+    height: fit-content;
     margin: 5%;
     background-color: white;
     box-shadow: 0 2px 20px gray;
