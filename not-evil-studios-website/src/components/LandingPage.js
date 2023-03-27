@@ -1,9 +1,11 @@
 import React from 'react'
 import './LandingPage.css'
-import logoBG from '../images/logoBG.png'
 import kittyImage from '../images/KittyFC.png'
 import ProjectCards from './ProjectCards'
 import logo from '../images/logo.png'
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 
 
@@ -38,22 +40,31 @@ export default function LandingPage() {
               non proident, sunt in culpa qui officia deserunt mollit anim id 
                est laborum."</p>
                
-           <div className="projects-container" >
-                
-                      <ProjectCards  img={kittyImage} 
-                      title = "Kitty Fighting Club" 
-                      description = "In a world where cats stay on two legs and fight with fish as weapons."
-                      link = "https://team-valstik.itch.io/kitty-fighting-club"
+           <div className='projects-container' >
+                <Container fluid>
+                  <Row style={{padding: '2%'}}>
+                     <Col>
+                     <ProjectCards  img={kittyImage} 
+                      title = 'Kitty Fighting Club'
+                      description = 'In a world where cats stay on two legs and fight with fish as weapons.'
+                      link = '/catastrophy'
                       />
-                   
-                   <ProjectCards  img={logo} 
-                      title = "Fling" 
-                      description = "A game about a fling :))"
-                      link = "https://team-valstik.itch.io/kitty-fighting-club"
+                     </Col>
+                  </Row>
+                      
+                   <Row style={{padding: '2%'}}>
+                     <Col>
+                     <ProjectCards  img={logo} 
+                      title = 'Fling'
+                      description = 'A game about a fling :))'
+                      link = '/fling'
                       />
                       
-                 
+                     </Col>
+                   </Row>
                    
+                 
+                  </Container>     
                     
                 
           </div>   

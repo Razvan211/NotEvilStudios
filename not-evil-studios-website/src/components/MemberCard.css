@@ -2,7 +2,7 @@
     overflow: hidden;
     flex-shrink: inherit;
     width: 15rem;
-    max-height:fit-content;
+    height: 35rem;
     background-color: black;
     box-shadow: 0 2px 20px gray;
     border-radius:15%;
@@ -11,14 +11,17 @@
     justify-content:center;
     flex-wrap: wrap;
 }
-.team-card-image{
+.team-image{
     height: 50%;
+}
+.team-card-image{
+    height: 100%;
     width: 100%;
     object-fit:cover;
 }
 
 .team-card-body{
-    flex: 1;
+    
     align-items: center;
     color: black;
     height: 50%;
@@ -46,17 +49,18 @@
     border-color: black;
     margin-left: 1rem;
     margin-right: 1rem;
+    
 }
 .team-card-media{
     display: flex;
     justify-content:center;
     gap: 2%;
-    
+  
     background-color: rgba(167, 0, 0, 0.2);
 }
 .team-card-socials{
     
-    margin-top: auto;
+    margin-top: 2%;
     
 
 }

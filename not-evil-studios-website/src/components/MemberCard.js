@@ -9,7 +9,10 @@ import { faFacebook, faTwitter, faInstagram, faLinkedin, faGithub, faWix, faYout
 function MemberCard(props) {
   return (
     <div className="team-card" >
-    <img src={props.img} className="team-card-image" alt={props.alt}/>
+      <div className='team-image'>
+      <img src={props.img} className="team-card-image" alt={props.alt}/>
+      </div>
+    
     <div className="team-card-body">
     <div className='team-info'>
       <h4 className="team-card-title">{props.name}</h4>
@@ -19,7 +22,7 @@ function MemberCard(props) {
       <p className="team-card-text">{props.info}</p>
       </div>
       </div>
-      <div fluid className='team-card-socials'>
+      <div className='team-card-socials'>
       <p className="team-card-media ">
         
         {props.showTwitter &&( <a href={props.twitter} rel='noreferrer' target="_blank" >

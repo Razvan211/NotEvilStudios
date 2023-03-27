@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { Navbar, Nav } from 'react-bootstrap';
 import logo from '../images/logo.png';
 import './Header.css'
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
 
 export default function Header() {
@@ -34,9 +35,10 @@ export default function Header() {
                 <Nav.Link as={Link} to='/' style={{ color:'white'}} onClick={() => setExpanded(false)}>
                   Home
                 </Nav.Link>
-                <Nav.Link as={Link} to='/projects' style={{ color:'white'}} onClick={() => setExpanded(false)}>
-                  Projects
-                </Nav.Link>
+                <NavDropdown title="Projects"  className='nav-dropdown'>
+              <NavDropdown.Item as={Link} to='/catastrophy'>CatAstrophy</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to='/fling'>Fling</NavDropdown.Item>
+              </NavDropdown>
                 <Nav.Link as={Link} to='/about-us' style={{ color:'white'}} onClick={() => setExpanded(false)}>
                   About us
                 </Nav.Link>

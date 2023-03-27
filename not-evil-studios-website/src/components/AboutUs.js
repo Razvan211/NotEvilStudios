@@ -8,6 +8,10 @@ import rn from '../images/RazvanN.png'
 import kj from '../images/Kjie.png'
 import jh from '../images/Josh.png'
 import logo from '../images/logo.png'
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
 
 function AboutUs() {
   return (
@@ -30,9 +34,10 @@ function AboutUs() {
 
         
              <div className="team-container">
-               
-             
-                     <MemberCard img={co} alt="photo with Chris Oliver" 
+               <Container fluid  >
+                <Row className="team-row">
+                  <Col className="team-col">
+                  <MemberCard img={co} alt="photo with Chris Oliver" 
                      name="Christopher Oliver"
                      roles = "CFO, Lead Sound Designer,Co-Founder"
                      info="Gamer, Musician and Dad"
@@ -41,8 +46,9 @@ function AboutUs() {
                      showLinkedIn="true"
                      linkedin="https://www.linkedin.com/in/christopher-oliver-a19798233/" 
                      />
-
-                     <MemberCard img={ch} alt="photo with Chris Hughes"
+                  </Col>
+                  <Col className="team-col">
+                  <MemberCard img={ch} alt="photo with Chris Hughes"
                      name="Chris Hughes"
                      roles ="Technical lead, Lead Programmer, Co-Founder"
                      info="Lover of games, and a fan of quirky mechanics"
@@ -53,8 +59,9 @@ function AboutUs() {
                      showGitHub="true"
                      github="https://github.com/ChrisSHughes "
                      />
-
-                     <MemberCard img={cb} alt="photo with Kuramura"
+                  </Col>
+                  <Col className="team-col">
+                  <MemberCard img={cb} alt="photo with Kuramura"
                      name="Kuramura"
                      roles = "Tech Lead, Co-Founder"
                      info="I love games with immersive stories and interesting gameplay mechanics
@@ -68,7 +75,21 @@ function AboutUs() {
                      showTwitter="true"
                      twitter="https://twitter.com/Kuramura300"
                      />
-
+                 </Col>
+                 <Col className="team-col">
+                 <MemberCard img={kj} alt="photo with Kjellon Morris"
+                     name="Kjellon Morris"
+                     roles="Head of 2D Art, Co-Founder"
+                     info="Full time creative and mocha enthusiast."
+                     showInstagram="true"
+                     instagram="https://www.instagram.com/kjekje42/"
+                     showLinkedIn="true"
+                     linkedin="https://www.linkedin.com/in/kjellon-morris-10a55816b/"
+                     showTwitter = "true"
+                     twitter="https://twitter.com/kjekje42"
+                     />
+                 </Col>
+                  <Col className="team-col">
                      <MemberCard img={rn} alt="photo with Razvan Nica"
                      name="Razvan Nica"
                      roles ="Web Developer, 3D Lead Artist, Co-Founder"
@@ -82,20 +103,9 @@ function AboutUs() {
                      facebook="https://www.facebook.com/nica.razvan.12"
                      showFacebook="true"
                      />
-
-                     <MemberCard img={kj} alt="photo with Kjellon Morris"
-                     name="Kjellon Morris"
-                     roles="Head of 2D Art, Co-Founder"
-                     info="Full time creative and mocha enthusiast."
-                     showInstagram="true"
-                     instagram="https://www.instagram.com/kjekje42/"
-                     showLinkedIn="true"
-                     linkedin="https://www.linkedin.com/in/kjellon-morris-10a55816b/"
-                     showTwitter = "true"
-                     twitter="https://twitter.com/kjekje42"
-                     />
-
-                     <MemberCard img={jh} alt="photo with Josh Kinver"
+                  </Col>
+                  <Col className="team-col">
+                  <MemberCard img={jh} alt="photo with Josh Kinver"
                      name="Josh Kinver"
                      roles ="Head of PR, Head of HR, Co-Founder"
                      info="Emotional support dandelion, slight drama queen, lover of playing games, writing stories, and listening to music."
@@ -108,14 +118,25 @@ function AboutUs() {
                      twitter="https://twitter.com/joshua_kinver"
                      showTwitter="true"
                      />
-
-                     <MemberCard img={logo} alt="photo with PSC"
+                  </Col>
+                  <Col className="team-col">
+                  <MemberCard img={logo} alt="photo with PSC"
                      name = "PSC"
                      roles = "CEO, Co-Founder"
                      info = "Gamer, Book Enjoyer, Spreadsheet Maniac"
                      showFacebook = "true"
                      facebook="https://www.facebook.com/PhilSC95"
                      />
+                  </Col>
+                </Row>
+               </Container>
+             
+                    
+                     
+
+                    
+
+                    
                  </div>
               </div>
            

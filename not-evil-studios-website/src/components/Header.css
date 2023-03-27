@@ -16,3 +16,7 @@
     max-width: 150px;
     max-height: 150px;
 }
+.nav-dropdown .nav-link.dropdown-toggle,
+.nav-dropdown .nav-item.dropdown .nav-link {
+  color: white;
+}
