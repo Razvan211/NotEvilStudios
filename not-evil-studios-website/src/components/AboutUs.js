@@ -35,8 +35,8 @@ function AboutUs() {
         
              <div className="team-container">
                <Container fluid  >
-                <Row className="team-row">
-                  <Col className="team-col">
+                <Row className="team-row" style={{padding:'2%'}}>
+                  <Col className="team-col ml-mr-auto" >
                   <MemberCard img={co} alt="photo with Chris Oliver" 
                      name="Christopher Oliver"
                      roles = "CFO, Lead Sound Designer,Co-Founder"
@@ -47,7 +47,7 @@ function AboutUs() {
                      linkedin="https://www.linkedin.com/in/christopher-oliver-a19798233/" 
                      />
                   </Col>
-                  <Col className="team-col">
+                  <Col className="team-col ml-mr-auto" >
                   <MemberCard img={ch} alt="photo with Chris Hughes"
                      name="Chris Hughes"
                      roles ="Technical lead, Lead Programmer, Co-Founder"
@@ -60,7 +60,7 @@ function AboutUs() {
                      github="https://github.com/ChrisSHughes "
                      />
                   </Col>
-                  <Col className="team-col">
+                  <Col className="team-col ml-mr-auto" >
                   <MemberCard img={cb} alt="photo with Kuramura"
                      name="Kuramura"
                      roles = "Tech Lead, Co-Founder"
@@ -76,7 +76,7 @@ function AboutUs() {
                      twitter="https://twitter.com/Kuramura300"
                      />
                  </Col>
-                 <Col className="team-col">
+                 <Col className="team-col ml-mr-auto" >
                  <MemberCard img={kj} alt="photo with Kjellon Morris"
                      name="Kjellon Morris"
                      roles="Head of 2D Art, Co-Founder"
@@ -89,7 +89,7 @@ function AboutUs() {
                      twitter="https://twitter.com/kjekje42"
                      />
                  </Col>
-                  <Col className="team-col">
+                  <Col className="team-col ml-mr-auto" >
                      <MemberCard img={rn} alt="photo with Razvan Nica"
                      name="Razvan Nica"
                      roles ="Web Developer, 3D Lead Artist, Co-Founder"
@@ -104,7 +104,7 @@ function AboutUs() {
                      showFacebook="true"
                      />
                   </Col>
-                  <Col className="team-col">
+                  <Col className="team-col ml-mr-auto">
                   <MemberCard img={jh} alt="photo with Josh Kinver"
                      name="Josh Kinver"
                      roles ="Head of PR, Head of HR, Co-Founder"
@@ -119,7 +119,7 @@ function AboutUs() {
                      showTwitter="true"
                      />
                   </Col>
-                  <Col className="team-col">
+                  <Col className="team-col ml-mr-auto" >
                   <MemberCard img={logo} alt="photo with PSC"
                      name = "PSC"
                      roles = "CEO, Co-Founder"

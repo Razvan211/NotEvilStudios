@@ -13,13 +13,17 @@ export default function Header() {
     return (
       
           <Navbar className='navbar' expand='md' expanded={expanded}>
+           
             <Navbar.Brand as={Link} to='/'>
+         
               <img
                 className='image-navbar'
                 src={logo}
                 alt='Not evil studios logo'
               />
+             
             </Navbar.Brand>
+           
             <Navbar.Toggle
               aria-controls='basic-navbar-nav'
               style={{backgroundColor: 'white'}}
