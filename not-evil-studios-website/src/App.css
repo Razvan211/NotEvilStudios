@@ -1,9 +1,7 @@
-.body{
-  background-color: lightgray;
-  background-position: center;
-  background: fixed;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+body{
+  text-align: center;
+  background-image:url('./images/BackgroundSkulls.png');
+  background-color: white;
+  font-family:'Courier New', Courier, monospace;
 }
 

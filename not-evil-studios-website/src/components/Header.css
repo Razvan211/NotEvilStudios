@@ -1,24 +1,22 @@
-.navbar{
-    background-color:rgba(167, 0, 0, 1);
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    justify-content: space-between;
-    box-shadow: 0 2px 20px gray;
-    border-bottom-right-radius: 5%;
-    border-bottom-left-radius: 5%;
+.navbar {
+  background-color: rgba(167, 0, 0, 1);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 2px 20px gray;
+  border-bottom-right-radius: 5%;
+  border-bottom-left-radius: 5%;
 }
 
-
-.image-navbar{
-    
-    border-radius: 50%;
-    border-style:solid;
-    border-width: 2px;
-    max-width: 150px;
-    max-height: 150px;
-    border-color: black;
+.image-navbar {
+  border-radius: 40px;
+  border-style: solid;
+  border-width: 2px;
+  max-width: 150px;
+  max-height: 150px;
+  border-color: black;
 }
 .nav-dropdown .nav-link.dropdown-toggle,
 .nav-dropdown .nav-item.dropdown .nav-link {

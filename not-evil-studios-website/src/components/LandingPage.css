@@ -1,53 +1,51 @@
-.body{
-    text-align: center;
-    background-image:url('../images/BackgroundSkulls.png');
-    background-color: white;
-}
+
 
 
 .mission-container{
     margin-top: 20px;
-    background-color: black;
+    background-color: rgb(20, 20, 20);
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
-    width: 90%;
+    width: 80%;
     box-shadow: 0 2px 20px gray;
+    text-align: center;
+    
 }
 
 .mission-title{
-    color: white;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
 }
 
 .mission-text{
     color:white;
-    font-size: x-large;
+    font-size: 18px;
 }
 
 .projects{
+    
     margin-top: 20px;
-    background-color: black;
+    background-color: rgb(20, 20, 20);
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
-    width: 90%;
-    border-bottom: 30rem;
+    width: 80%;
     box-shadow: 0 2px 20px gray;
-    margin-bottom: auto;
+    margin-bottom: 20px;
 }
 
 .projects-title{
+    
+    font-weight: bold;
     color:white;
 }
 
 .projects-text{
+    font-size: 16px;
     color: white;
 }
 
-.projects-text{
-    color: white;
-    font-size: 20px;
-}
 
 .projects-container{
     width: 95%;

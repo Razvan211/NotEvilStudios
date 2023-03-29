@@ -1,29 +1,26 @@
-
-.team{
-    margin-top: 20px;
-    background-color: black;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-    
-    width: 90%;
-    border-bottom: 30rem;
-    box-shadow: 0 2px 20px gray;
-    margin-bottom: auto;
+.team {
+	margin-top: 20px;
+	background-color: rgb(20, 20, 20);
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	width: 80%;
+	box-shadow: 0 2px 20px gray;
+	margin-bottom: 20px;
    
 }
 
-.team-title{
-    color:white;
+.team-title {
+	color: white;
+    
 }
 
-.team-container{
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: white;
+.team-container {
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+    background-color: rgb(240, 240, 240);
+  
 }
-
-
-
-
