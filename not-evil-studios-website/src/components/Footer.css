@@ -13,6 +13,7 @@
     margin-right: auto;
     bottom: 0;
     max-height: 150px;
+    position:fixed;
     min-height: 120px;
     padding-bottom: auto ;
 }
