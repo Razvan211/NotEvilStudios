@@ -24,7 +24,6 @@ export default function LandingPage() {
         <h2 className="projects-title">Projects</h2>
 
         <p className="projects-text">
-          <h1>Sunt la tigara!</h1>
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
