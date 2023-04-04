@@ -1,6 +1,6 @@
 import React from "react";
 import "./LandingPage.css";
-import cat from "../images/CatAstrophe/CatAstrophy.png";
+import cat from "../images/CatAstrophe/CatAstrophe.png";
 import ProjectCards from "./ProjectCards";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";

@@ -1,6 +1,6 @@
 import React from "react";
 import "./CatAstrophe.css";
-import cat from "../images/CatAstrophe/CatAstrophy.png";
+import cat from "../images/CatAstrophe/CatAstrophe.png";
 import storyM from "../images/CatAstrophe/StoryMode.png"
 import survivalM from "../images/CatAstrophe/SurvivalMode.png"
 import kittyM from "../images/CatAstrophe/KittyFightingClub.png"
