@@ -44,9 +44,7 @@ export default function Header() {
 						<NavDropdown.Item as={Link} to="/catastrophe">
 							CatAstrophe
 						</NavDropdown.Item>
-						<NavDropdown.Item as={Link} to="/fling">
-							Fling
-						</NavDropdown.Item>
+						
 					</NavDropdown>
 					<Nav.Link
 						as={Link}
