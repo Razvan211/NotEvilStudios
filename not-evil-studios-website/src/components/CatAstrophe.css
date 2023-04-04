@@ -1,0 +1,60 @@
+.catastrophe {
+	width: 80%;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+    margin-bottom: 75px;
+	object-fit: contain;
+	
+}
+
+.catastrophe-info{
+	background-color: rgb(20, 20, 20);
+	width: 100%;
+	height: fit-content;
+}
+
+.catastrophe .catastrophe-info{
+	padding: 24px;
+}
+
+.catastrophe-info h2,h3{
+	color:white;
+	padding: 24px;
+	
+}
+
+.catastrophe-info .btn{
+	text-align:center;
+	font-size: larger;
+	
+	line-height: 35px;
+	width: 300px;
+	height: 50px;
+}
+
+@media (max-width: 768px) {
+	.catastrophe-info .btn {
+	  width: 200px;
+	  height: 40px;
+	  line-height: 25px;
+	}
+  }
+  
+@media (max-width: 576px) {
+	.catastrophe-info .btn {
+	  width: 150px;
+	  height: 30px;
+	  line-height: 15px;
+	  font-size: medium;
+	}
+}
+.subtitle{
+	font-weight: bold;
+	margin-top: 50px;
+	background-color: rgb(38, 38, 38);
+}
+
+
+

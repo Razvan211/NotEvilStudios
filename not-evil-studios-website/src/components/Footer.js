@@ -6,6 +6,7 @@ import { faFacebook, faTwitter, faLinkedin, faYoutube } from '@fortawesome/free-
 
 function Footer() {
   return (
+    <footer>
     <Container fluid className='footer-container'>
       <Row xs={6} md={3} style={{ color: 'white' }} className='row-1'>
         <Col className='first-column'>
@@ -25,6 +26,7 @@ function Footer() {
          </Col>
       </Row>
     </Container>
+    </footer>
   )
 }
 
