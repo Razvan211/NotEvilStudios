@@ -24,9 +24,11 @@
 	height: 50%;
 }
 .team-card-image {
+	display: block;
 	height: 100%;
 	width: 100%;
-	object-fit: cover;
+	object-fit:fill;
+	
 }
 
 .team-card-body {
