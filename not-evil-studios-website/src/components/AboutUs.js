@@ -59,8 +59,8 @@ function AboutUs() {
 							alt="photo with Kuramura"
 							name="Kuramura"
 							roles="Tech Lead, Co-Founder"
-							info="I love games with immersive stories and interesting gameplay mechanics
-                     , I enjoy programming and problem solving"
+							info="I love games with immersive stories and interesting gameplay mechanics, 
+							I enjoy programming and problem solving"
 							showYoutube="true"
 							youtube="https://www.youtube.com/channel/UChxe-VXG_Yzgkj6X6whsLxg"
 							showGitHub="true"
@@ -89,7 +89,7 @@ function AboutUs() {
 							img={rn}
 							alt="photo with Razvan Nica"
 							name="Razvan Nica"
-							roles="Web Developer, 3D Lead Artist, Co-Founder"
+							roles="Web Developer, Lead 3D Artist, Co-Founder"
 							info="I love multiplayer games, I enjoy travelling"
 							twitter="https://twitter.com/razvan58686269"
 							showTwitter="true"
