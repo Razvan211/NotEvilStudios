@@ -11,11 +11,11 @@ import {
 	faYoutube,
 	faInternetExplorer,
 } from "@fortawesome/free-brands-svg-icons";
-import Col from "react-bootstrap/Col";
+
 
 function MemberCard(props) {
 	return (
-		<Col xs={12} md={6} lg={4}>
+		
 			<div className="team-card">
 				<div className="team-image">
 					<img src={props.img} className="team-card-image" alt={props.alt} />
@@ -81,7 +81,7 @@ function MemberCard(props) {
 					</p>
 				</div>
 			</div>
-		</Col>
+		
 	);
 }
 

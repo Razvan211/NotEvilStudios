@@ -29,7 +29,7 @@ export default function LandingPage() {
 				<div className="projects-container">
 					<Container fluid>
 						<Row style={{ padding: "2%" }}>
-							<Col xs={12} md={6} lg={6}>
+							<Col xs={12} md={6} lg={{offset: 3}}>
 								<ProjectCards
 									img={cat}
 									title="Cat-Astrophe"
