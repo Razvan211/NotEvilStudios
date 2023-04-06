@@ -6,7 +6,7 @@ import App from './App';
 import ReactGA from "react-ga4";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-ReactGA.initialize("G-G-VYFQK7C385");
+ReactGA.initialize("G-VYFQK7C385");
 root.render(
   <React.StrictMode>
     <BrowserRouter>
