@@ -19,7 +19,7 @@ function Footer() {
         <FontAwesomeIcon icon={faTwitter} /> </a>       
         <a href='https://www.facebook.com/profile.php?id=100089749505346' rel='noreferrer' target="_blank"  >
         <FontAwesomeIcon icon={faFacebook} /> </a>       
-        <a href='https://twitter.com/NotEvilStudios' rel='noreferrer' target="_blank"  >
+        <a href='https://www.youtube.com/@NotEvilStudiosLtd' rel='noreferrer' target="_blank"  >
         <FontAwesomeIcon icon={faYoutube} /> </a>     
         <a href='https://www.linkedin.com/company/93093211' rel='noreferrer' target="_blank"  >
         <FontAwesomeIcon icon={faLinkedin} /> </a>         

@@ -50,3 +50,39 @@
 
 	margin-top: auto;
 }
+@media (max-width: 768px) {
+	.project-card-image {
+		height: 100%;
+		width: 100%;
+		background-color: black;
+		object-fit: fit;
+	}
+	.project-card-top {
+		height: 50%;
+	}
+	.project-card{
+		height: 25rem;
+	}
+	.project-card-body {
+		height: 50%;
+	}
+  }
+  
+@media (max-width: 576px) {
+	.project-card-image {
+		height: 100%;
+		width: 100%;
+		background-color: black;
+		object-fit: fit;
+	}
+	.project-card-top {
+		height: 50%;
+	}
+	.project-card{
+		height: 20rem;
+	}
+	.project-card-body {
+		height: 50%;
+	}
+}
+
