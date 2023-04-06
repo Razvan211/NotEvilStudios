@@ -90,7 +90,7 @@ function AboutUs() {
 							alt="photo with Razvan Nica"
 							name="Razvan Nica"
 							roles="Web Developer, Lead 3D Artist, Co-Founder"
-							info="I love multiplayer games, I enjoy travelling"
+							info="I love multiplayer games and traveling to new places."
 							twitter="https://twitter.com/razvan58686269"
 							showTwitter="true"
 							linkedin="https://www.linkedin.com/in/razvan-nica-b429101b8/"
