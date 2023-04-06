@@ -32,7 +32,7 @@ export default function LandingPage() {
 							<Col xs={12} md={6} lg={6}>
 								<ProjectCards
 									img={cat}
-									title="CatAstrophe"
+									title="Cat-Astrophe"
 									description="In a world where cats stay on two legs and fight with fish as weapons."
 									link="/catastrophe"
 								/>

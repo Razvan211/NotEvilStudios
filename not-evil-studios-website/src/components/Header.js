@@ -42,7 +42,7 @@ export default function Header() {
 					className="nav-dropdown"
 					active={location.pathname === "/catastrophe"  || location.pathname==="/fling"}>
 						<NavDropdown.Item as={Link} to="/catastrophe">
-							CatAstrophe
+							Cat-Astrophe
 						</NavDropdown.Item>
 						
 					</NavDropdown>
