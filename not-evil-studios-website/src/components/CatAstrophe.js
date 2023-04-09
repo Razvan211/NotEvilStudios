@@ -20,6 +20,7 @@ function CatAstrophe() {
 	combatting other cats with a variety of different fish based weapons.
 	</h2>
 	<a href="https://www.kickstarter.com/projects/notevilstudios/cat-astrophe" rel="noreferrer" target="_blank" size="lg" className="btn btn-dark">Support our project</a>
+	<a href="https://notevilstudios.itch.io/cat-astrophe-demo"rel="noreferrer" className="btn btn-dark ">Download Alpha</a>
 	
 	<h2 className="subtitle">Game Modes</h2>
 	<img src={storyM} alt="story mode" className="img-fluid"/>
@@ -38,13 +39,13 @@ function CatAstrophe() {
 	<img src={kittyM} alt="kitty fighting club mode" className="img-fluid"/>
     <h3>In this mode, up to 4 players take part in a variety of game types to determine the best cat in a mixture of PvP action.</h3>
 	<a href="https://www.kickstarter.com/projects/notevilstudios/cat-astrophe" rel="noreferrer" target="_blank" size="lg" className="btn btn-dark">Support our project</a>
-	
+	<a href="https://notevilstudios.itch.io/cat-astrophe-demo"rel="noreferrer" className="btn btn-dark ">Download Alpha</a>
 	<h2 className="subtitle">Models</h2>
     <Container fluid className="cat-container">
 		<Row>
-			<Col md={12} lg={12}><img src={mainCat} alt="kitty fighting club mode" className="img-fluid"/></Col>
-			<Col md={12} lg={12}><img src={drWhiskers} alt="kitty fighting club mode" className="img-fluid"/></Col>
-			<Col md={12} lg={12}><img src={levels} alt="kitty fighting club mode" className="img-fluid"/></Col>
+			<Col className="cat-col" md={12} lg={12}><img src={mainCat} alt="kitty fighting club mode" className="img-fluid"/></Col>
+			<Col className="cat-col" md={12} lg={12}><img src={drWhiskers} alt="kitty fighting club mode" className="img-fluid"/></Col>
+			<Col className="cat-col" md={12} lg={12}><img src={levels} alt="kitty fighting club mode" className="img-fluid"/></Col>
 		</Row>
 	</Container>
     </div>

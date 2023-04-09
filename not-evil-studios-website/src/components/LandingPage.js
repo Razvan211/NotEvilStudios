@@ -35,7 +35,7 @@ export default function LandingPage() {
 									title="Cat-Astrophe"
 									description="In a world where cats stay on two legs and fight with fish as weapons."
 									link="/catastrophe"
-								/>
+											/>
 							</Col>
 						</Row>
 

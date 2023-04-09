@@ -13,6 +13,7 @@ export default function ProjectCards(props) {
         <a href={props.link} rel="noreferrer" className="btn btn-dark ">
           Go to project
         </a>
+       
       </div>
     </div>
   );
